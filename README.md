@@ -1,6 +1,6 @@
 <div align="center">
 
-# Transcripty
+# Transcrypty
 
 **Offline speech transcription for Windows.**
 
@@ -30,7 +30,7 @@ Fast, private, and completely local — no internet required after the first run
 ## Quick Start
 
 1. Download the installer from [Releases][release-url]
-2. Run `Transcripty_v0.2_Setup.exe` — no admin rights required
+2. Run `Transcrypty_v0.2_Setup.exe` — no admin rights required
 3. Press <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>Z</kbd> and speak
 4. Release — transcription is pasted automatically
 
@@ -60,7 +60,7 @@ scripts\build.bat
 Or run each step manually:
 
 ```bash
-pyinstaller Transcripty.spec
+pyinstaller Transcrypty.spec
 iscc setup.iss
 ```
 
@@ -103,14 +103,14 @@ Distributed under the MIT License. See [`LICENSE`][license-url] for details.
 </div>
 
 <!-- Badges -->
-[license-badge]: https://img.shields.io/github/license/renato0x/Transcript?style=flat-square&color=blue
-[release-badge]: https://img.shields.io/github/v/release/renato0x/Transcript?style=flat-square
+[license-badge]: https://img.shields.io/github/license/renato0x/Transcrypty?style=flat-square&color=blue
+[release-badge]: https://img.shields.io/github/v/release/renato0x/Transcrypty?style=flat-square
 [windows-badge]: https://img.shields.io/badge/Windows-10%20%7C%2011-blue?style=flat-square&logo=windows&logoColor=white
 
 <!-- Links -->
-[license-url]: https://github.com/renato0x/Transcript/blob/master/LICENSE
-[release-url]: https://github.com/renato0x/Transcript/releases/latest
-[issues-url]: https://github.com/renato0x/Transcript/issues
+[license-url]: https://github.com/renato0x/Transcrypty/blob/master/LICENSE
+[release-url]: https://github.com/renato0x/Transcrypty/releases/latest
+[issues-url]: https://github.com/renato0x/Transcrypty/issues
 [faster-whisper-url]: https://github.com/SYSTRAN/faster-whisper
 [pyside6-url]: https://doc.qt.io/qtforpython-6/
 [sounddevice-url]: https://python-sounddevice.readthedocs.io/
