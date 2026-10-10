@@ -11,14 +11,14 @@ venv/
 dist/
 build/
 *.spec
-!Transcripty.spec
+!Transcrypty.spec
 
 # Generated assets (committed: logo_source.py regenerates them)
 # *.bmp
 # *.ico
 
 # Installer
-Transcript_*_Setup.exe
+Transcrypty_*_Setup.exe
 
 # User config
 config.json

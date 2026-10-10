@@ -12,7 +12,7 @@ if "%VER%"=="" (
     exit /b 1
 )
 echo ============================================
-echo  Building Transcripty %VER%
+echo  Building Transcrypty %VER%
 echo ============================================
 echo.
 
@@ -29,15 +29,15 @@ echo.
 REM Step 2: Clean previous builds
 echo [2/4] Cleaning previous builds...
 if exist build rmdir /s /q build
-if exist "dist\Transcripty" rmdir /s /q dist\Transcripty
-if exist "Transcripty_v%VER%_Setup.exe" del "Transcripty_v%VER%_Setup.exe"
-if exist "Transcripty_v%VER%_Installer.exe" del "Transcripty_v%VER%_Installer.exe"
+if exist "dist\Transcrypty" rmdir /s /q dist\Transcrypty
+if exist "Transcrypty_v%VER%_Setup.exe" del "Transcrypty_v%VER%_Setup.exe"
+if exist "Transcrypty_v%VER%_Installer.exe" del "Transcrypty_v%VER%_Installer.exe"
 echo Done.
 echo.
 
 REM Step 3: PyInstaller
 echo [3/4] Running PyInstaller...
-pyinstaller Transcripty.spec
+pyinstaller Transcrypty.spec
 if %errorlevel% neq 0 (
     echo ERROR: PyInstaller failed with code %errorlevel%
     exit /b %errorlevel%
@@ -56,5 +56,5 @@ echo Done.
 echo.
 
 echo ============================================
-echo  SUCCESS: Transcripty_v%VER%_Setup.exe
+echo  SUCCESS: Transcrypty_v%VER%_Setup.exe
 echo ============================================
