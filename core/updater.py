@@ -4,7 +4,7 @@ import urllib.error
 from PySide6.QtCore import QObject, Signal
 from version import VERSION
 
-GITHUB_API = "https://api.github.com/repos/renato0x/transcript/releases/latest"
+GITHUB_API = "https://api.github.com/repos/renato0x/Transcrypty/releases/latest"
 
 
 class UpdateChecker(QObject):
@@ -12,7 +12,7 @@ class UpdateChecker(QObject):
 
     def run(self):
         try:
-            req = urllib.request.Request(GITHUB_API, headers={"User-Agent": "Transcripty"})
+            req = urllib.request.Request(GITHUB_API, headers={"User-Agent": "Transcrypty"})
             with urllib.request.urlopen(req, timeout=10) as resp:
                 data = json.loads(resp.read())
                 latest = data.get("tag_name", "").lstrip("v")

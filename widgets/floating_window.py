@@ -84,7 +84,7 @@ class FloatingWindow(QWidget):
             }
         """)
         self.close_btn.clicked.connect(QApplication.instance().quit)
-        self.close_btn.setToolTip("Close Transcripty")
+        self.close_btn.setToolTip("Close Transcrypty")
 
         container = QWidget(self)
         container.setAttribute(Qt.WidgetAttribute.WA_TranslucentBackground)
@@ -258,8 +258,8 @@ class FloatingWindow(QWidget):
 
     def _show_about(self):
         msg = QMessageBox(self)
-        msg.setWindowTitle("About Transcripty")
-        msg.setText(f"Transcripty v{VERSION}")
+        msg.setWindowTitle("About Transcrypty")
+        msg.setText(f"Transcrypty v{VERSION}")
         msg.setInformativeText("Local speech transcription.\n\nrenato0x")
         msg.exec()
 
@@ -274,7 +274,7 @@ class FloatingWindow(QWidget):
         self._update_url = url
         msg = QMessageBox(self)
         msg.setWindowTitle("Update Available")
-        msg.setText(f"Transcripty v{latest_ver}")
+        msg.setText(f"Transcrypty v{latest_ver}")
         msg.setInformativeText("Download now?")
         msg.setStandardButtons(QMessageBox.StandardButton.Yes | QMessageBox.StandardButton.No)
         if msg.exec() == QMessageBox.StandardButton.Yes:

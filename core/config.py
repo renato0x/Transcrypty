@@ -2,7 +2,7 @@ import json
 import os
 
 APPDATA = os.environ.get("APPDATA", "")
-CONFIG_DIR = os.path.join(APPDATA, "Transcripty")
+CONFIG_DIR = os.path.join(APPDATA, "Transcrypty")
 CONFIG_PATH = os.path.join(CONFIG_DIR, "config.json")
 
 DEFAULT_CONFIG = {
