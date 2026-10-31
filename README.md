@@ -1,11 +1,13 @@
 <div align="center">
 
-#_                                             _         
+```text
+ _                                             _         
 | |_ _ __ __ _ _ __  ___  ___ _ __ _   _ _ __ | |_ _   _ 
 | __| '__/ _` | '_ \/ __|/ __| '__| | | | '_ \| __| | | |
 | |_| | | (_| | | | \__ \ (__| |  | |_| | |_) | |_| |_| |
  \__|_|  \__,_|_| |_|___/\___|_|   \__, | .__/ \__|\__, |
                                    |___/|_|        |___/ 
+```
 **Offline speech transcription for Windows.**
 
 Fast, private, and completely local — no internet required after the first run.
