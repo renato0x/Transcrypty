@@ -10,6 +10,7 @@
                                      |___/|_|        |___/   
 </pre>
 </p>
+
 **Offline speech transcription for Windows.**
 
 Fast, private, and completely local — no internet required after the first run.
